@@ -1,0 +1,14 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/FizzBuzz/obj
+/FizzBuzzTest/obj
+/PrimeFactor/obj
+/.NCrunch_PrimeFactor
+*.ncrunchproject
+*.user
+/PrimeFactorTest/bin/Debug/net6.0
+/PrimeFactorTest/obj
+*.ncrunchsolution
