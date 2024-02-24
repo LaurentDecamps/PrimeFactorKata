@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="PrimeFactor.v3.ncrunchproject" />
+  </ItemGroup>
+
 </Project>

@@ -4,6 +4,11 @@ public static class PrimeFactor
 {
     public static int[] GetPrimeFactor(int inputInteger)
     {
-        return inputInteger == 2 ? new[] {2} : new[] {1};
+        var primeFactorsToReturn = new List<int>();
+        if (inputInteger > 1)
+        {
+            primeFactorsToReturn.Add(2);
+        }
+        return primeFactorsToReturn.ToArray();
     }
 }

@@ -10,6 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="PrimeFactorTest.v3.ncrunchproject" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageReference Include="NUnit" Version="3.13.3" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
@@ -19,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FizzBuzz\PrimeFactor.csproj" />
+    <ProjectReference Include="..\PrimeFactor\PrimeFactor.csproj" />
   </ItemGroup>
 
 </Project>
