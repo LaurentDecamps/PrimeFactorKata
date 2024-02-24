@@ -7,8 +7,9 @@ public static class PrimeFactor
         var primeFactorsToReturn = new List<int>();
         if (inputInteger > 1)
         {
-            primeFactorsToReturn.Add(2);
+            primeFactorsToReturn.Add(inputInteger);
         }
+        
         return primeFactorsToReturn.ToArray();
     }
 }
