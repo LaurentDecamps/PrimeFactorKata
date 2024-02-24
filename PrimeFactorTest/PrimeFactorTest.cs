@@ -25,4 +25,11 @@ public class PrimeFactorTest
         var twoPrimeFactors = GetPrimeFactor(2);
         twoPrimeFactors.Should().BeEquivalentTo(GetArrayInitiateWith(2));
     }
+
+    [Test]
+    public void Should_Return_Three_For_Input_Three()
+    {
+        var twoPrimeFactors = GetPrimeFactor(3);
+        twoPrimeFactors.Should().BeEquivalentTo(GetArrayInitiateWith(3));
+    }
 }
