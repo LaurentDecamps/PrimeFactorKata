@@ -5,9 +5,12 @@ public static class PrimeFactor
     public static int[] GetPrimeFactor(int inputInteger)
     {
         var primeFactorsToReturn = new List<int>();
-        if (inputInteger > 1)
+        for (int index = 2; index <= inputInteger; index++)
         {
-            primeFactorsToReturn.Add(inputInteger);
+            if (inputInteger % index != 0) continue;
+            primeFactorsToReturn.Add(index);
+            inputInteger /= index;
+            index = 1;
         }
         
         return primeFactorsToReturn.ToArray();
