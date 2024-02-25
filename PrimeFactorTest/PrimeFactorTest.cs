@@ -48,6 +48,13 @@ public class PrimeFactorTest
     }
 
     [Test]
+    public void Should_Return_Three_For_Input_Seven()
+    {
+        var twoPrimeFactors = GetPrimeFactor(7);
+        twoPrimeFactors.Should().BeEquivalentTo(GetArrayInitiateWith(7));
+    }
+
+    [Test]
     public void Should_Return_Three_For_Input_Nine()
     {
         var twoPrimeFactors = GetPrimeFactor(9);
