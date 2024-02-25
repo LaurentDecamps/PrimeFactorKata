@@ -58,7 +58,7 @@ public class PrimeFactorTest
     public void Should_Return_Three_For_Input_Eigth()
     {
         var twoPrimeFactors = GetPrimeFactor(8);
-        twoPrimeFactors.Should().BeEquivalentTo(GetArrayInitiateWith(2,2,3));
+        twoPrimeFactors.Should().BeEquivalentTo(GetArrayInitiateWith(2,2,2));
     }
 
     [Test]
